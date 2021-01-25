@@ -2,9 +2,9 @@ var mysql = require('mysql');
 
 var con = mysql.createConnection({
     host: "localhost",
-    user: "mnaccess_test_user",
-    password: "Udara@123",
-    database: "mnaccess_location"
+    user: "root",
+    password: "",
+    database: "temdb"
   });
   
   con.connect(function(err) {
